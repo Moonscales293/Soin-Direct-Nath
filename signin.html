@@ -5,11 +5,10 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
-
         <script src="script.js"></script>
         <title>Soin-direct</title>
     </head>
-    <body class="login">
+    <body class="signin">
         <div class="container">
             <header>
                 <div class="logo">
@@ -25,13 +24,15 @@
                     </div>
                 </nav>
             </header>
-            <div class="login-container">
-                <h2>Connexion</h2>
+            <div class="signin-container">
+                <h2>Inscription</h2>
                 <form>
+                    <input type="text" id="name" name="name" placeholder="Nom de l'entreprise" required>
+                    <input type="text" id="TVA" name="TVA" placeholder="Numéro de TVA" required>
+                    <input type="text" id="address" name="address" placeholder="Adresse" required>
                     <input type="email" id="email" name="email" placeholder="Adresse mail" required>
-                    <a href="login.html">Mot de passe oublié?</a>
                     <input type="password" id="password" name="password" placeholder="Mot de passe" required>
-                    <p>Pas encore de compte? <a href="signin.html">Inscription</a></p>
+                    <input type="password" id="password" name="password" placeholder="Confirmer le mot de passe" required>
                     <button type="submit"><a href="index.html">Se connecter</a></button>
                     <button type="reset"><a href="index.html">Accueil</a></button>
                 </form>

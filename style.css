@@ -6,7 +6,7 @@
     }
 }
 
-.header {
+header {
     display: block;
     height: 125px;
     margin: 0 auto;
@@ -307,3 +307,66 @@ button {
 }
 
 /* à reprendre */
+/* partie inscription, nouvelle page */
+
+.signin
+    h2 {
+        justify-content: center;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;  
+        margin-top: 10%;
+        color: #000000;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    label {
+        font-size: 16px;
+        margin-bottom: 0.5rem;
+        color: #000000;
+    }
+
+    input {
+        width: 90%;
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+        border-radius: 5px;
+        font-size: 16px;
+        color: #000000;
+        border: 0.5px solid hsl(0, 0%, 0%);
+    }
+
+    button[type="submit"], button[type="reset"] {
+        width: 50%;
+        padding: 1rem;
+        border-radius: 5%;
+        cursor: pointer;
+  }
+    button:hover {
+        background-color: #4f6123;
+    }
+
+    form a {
+        text-decoration: none;
+        color: #2013d8;
+        margin-top: 1rem;
+        right: 10%;
+    }
+
+    button a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    p {
+        font-size: 16px;
+        margin-top: 0.5rem;
+        text-align: center;
+        color: #000000;
+    }
