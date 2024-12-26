@@ -1,0 +1,110 @@
+<!DOCTYPE html> 
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Lato&family=Mea+Culpa&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <script src="script.js"></script>
+        <title>Soin-direct.be</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="logo">
+                    <img src="LogoSoinDirect.png" alt="LogoSoinDirect">
+                </div>
+                <div class="usage">
+                    <a href="panier.html">
+                    <img src="panier.png" alt="accès-panier">
+                    </a>
+                    <a href="login.html">
+                    <img src="compte.png" alt="acces-compte">
+                    </a>
+                </div>
+                <nav class="side-nav" onclick="toggleSideNav()">
+                    <img src="side-nav.png" alt="menu-déroulant">
+                    <div class="side-nav-content">
+                        <a href="login.html">Connexion/Inscription</a>
+                        <a href="panier.html">Matériel de soin</a>
+                        <a href="compte.html">Médicaments</a>
+                        <a href="compte.html">Equipement</a>
+                    </div>
+                </nav>
+                <div class="search-container">
+                    <input type="text" id="search-box" class="search-box" placeholder="Rechercher..." />
+                </div>
+            </div>
+           <nav>
+            <button>Matériel de soin</button>
+            <button>Médicaments</button>
+            <button>Equipement</button>
+            <div class="product">
+                <div class="product-img">
+                    <img src="medoc1.png" alt="product1">
+                </div>
+                <div class="product-details">
+                    <p>Xanax Alprazolam - 10mg</p>
+                    <p>12,99€</p>
+                    <div class="quantity">
+                        <button class="decrease-btn" class="quantity-btn" data-index="0">-</button>
+                        <span id="quantity" data-index="0">1</span>
+                        <button class="increase-btn" class="quantity-btn" data-index="0">+</button>
+                    </div>
+                    <button id="panier" class="panier">Panier</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="medoc1.png" alt="product2">
+                </div>
+                <div class="product-details">
+                    <p>Xanax Alprazolam - 10mg</p>
+                    <p>12,99€</p>
+                    <div class="quantity">
+                        <button class="decrease-btn" class="quantity-btn" data-index="1">-</button>
+                        <span id="quantity" data-index="1">1</span>
+                        <button class="increase-btn" class="quantity-btn" data-index="1">+</button>
+                    </div>
+                    <button id="panier" class="panier">Panier</button>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product-img">
+                    <img src="medoc1.png" alt="product3">
+                </div>
+                <div class="product-details">
+                    <p>Xanax Alprazolam - 10mg</p>
+                    <p>12,99€</p>
+                    <div class="quantity">
+                        <button class="decrease-btn" class="quantity-btn" data-index="2">-</button>
+                        <span id="quantity" data-index="2">1</span>
+                        <button class="increase-btn" class="quantity-btn" data-index="2">+</button>
+                    </div>
+                    <button id="panier" class="panier">Panier</button>
+                </div>
+            </div>            
+           </nav>
+           <div class="footer">
+            <div class="contact">
+                <h2>Contactez-nous</h2>
+                <p>Email : soindirect@gmail.com</p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>.
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            </div>
+        </div>
+    </footer>
+        </div>
+    </body>
+</html>
